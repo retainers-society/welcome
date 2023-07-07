@@ -1,0 +1,111 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+/* header style */
+/* ul style */
+header{
+    border: rgb(13, 14, 16) solid;
+    background-color: blue;
+    height: 25vh;
+}
+ul{
+    display: grid;
+    grid-template-columns: 50vw auto auto;  
+}
+
+nav ul a{
+    background-color: rgb(204, 204, 215);
+    font-size: medium;
+    font-style: none;
+    color: black;
+    text-decoration: none;
+    margin: 0.5vh;
+    border: 0.5vh solid gray;
+    padding: 0.5vh;
+}
+.search button{
+    border: 0.5vh solid gray;
+    padding: 0.5vh;
+}
+.search input{
+    border: 0.5vh solid gray;
+    width: 20vw;
+    padding: 0.5vh;
+}
+.signup{
+    border: 0.5vh solid gray;
+    background-color: aqua;
+    padding: 0.5vh;
+    position: relative;
+}
+.login{
+    border:0.5vh solid gray;
+    background-color: aqua;
+    padding: 0.5vh;
+}
+/* data style */
+.data{
+    display: grid;
+    grid-template-columns: 25vw auto 13.5vw;
+    margin-top: 4vh;
+}
+.blog a{
+    border:0.5vh solid gray;
+    /* margin: 4vh; */
+    background-color: aqua;
+    color: black;
+    padding: 0.5vh;
+}
+.welcome{
+    font-size:4vh;
+    justify-content: center;
+}
+/* main body style */
+main{
+    min-height: 80vh;
+}
+body{
+    background-color: rgb(5, 16, 16);
+    color: white;
+}
+.intro p{
+    text-align: center;
+    margin: 1vh;
+}
+.welcomenote{
+    font-size: 2.8vh;
+}
+b{
+    color: red;
+}
+h2{color: green;}
+.join{ display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+.joinnow{
+    border: 0.7vh solid gray;
+   padding: 1vh;
+   margin: 1vh;
+    
+
+}
+/* footer style */
+.footbox{
+    display: grid;
+    grid-template-columns: auto auto auto;
+    align-items: start;
+    justify-content: space-between;
+    border: solid rgb(16, 14, 14);
+    background-color: aqua;
+    color: black;
+    margin: 0.5vh;
+    height: 10vh;
+    font-size: 2.5vh;
+    padding: 1vw;
+}
+.copyright{
+    transform: translateY(7vh);
+}
